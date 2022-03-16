@@ -1,0 +1,21 @@
+// header
+
+.header {
+    box-sizing: border-box;
+&__img {
+    width: 30%;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    }    
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+    .header__img {
+        width: 100%;
+    }
+}

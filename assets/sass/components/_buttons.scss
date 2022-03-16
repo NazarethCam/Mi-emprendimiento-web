@@ -1,0 +1,28 @@
+.footer__btn {
+	background-color: $tangerine;
+	font-size: $x-small;
+	color: $black;
+	font-weight: $bold;
+	padding: 0.3rem;
+	border: 1px solid $black;
+    border-radius: 10%;
+	&--small{
+		margin-right: 0.75rem;
+	}
+	&--hover:hover{
+		background:$white;
+		color: $black;
+		border: 1px solid gray;
+	}
+}
+
+@media(max-width:$breakpoint-phone){
+	.footer__btn--small{
+	    margin-right: 0,25rem;
+	}
+	.footer__btn {
+		padding: 0.55rem 0.6rem;
+		font-size:$x-small;
+		text-align: center;
+	}
+}

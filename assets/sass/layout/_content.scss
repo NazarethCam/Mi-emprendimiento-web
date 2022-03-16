@@ -1,0 +1,128 @@
+.hero {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 95%;
+    border: 2px solid gray;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+}
+.card__inf {
+    border: 1px dotted gray;
+    margin: 1rem;
+}
+.card__content-1 {
+    font-family: $poppins;
+    font-weight: $medium;
+    padding: 0.5rem;
+    padding-right: 0;
+}
+.card__picture {
+    width: 98%;
+    position: relative;
+    }
+.card__img-1 {
+    width: 100%;
+    }
+.card__title-1 {
+    margin-bottom: 0.5rem;
+    font-family: $ubuntu;
+    font-size: $medium;
+    font-weight: $bold;
+    padding: 1rem 0.5rem 0;
+}
+
+.container-1 {
+    width: 95%;
+    border: 2px solid gray;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+}
+.card__content-2 {
+    width: 90%;
+    margin: 0 auto;  
+    font-family: $poppins;
+    font-size: $x-small;
+    font-weight: $medium;
+    padding-top: 1rem;   
+    text-align: center;    
+    }
+.card__img-2 {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 2px solid gray;
+    text-align: center;
+}
+.card__title-2 {
+    margin: 0.5rem;
+    font-family: $ubuntu;
+    font-size: $small;
+    font-weight: $bold;
+}
+.card__text {
+    font-family: $ubuntu;
+    font-size: $x-small;
+    line-height: 1.5;
+    text-align: justify;
+}
+.card__description {
+    padding: 0.5rem 0.5rem;
+    font-weight: $bold;
+}
+
+.card__paragraph {
+    font-family: $ubuntu;
+    font-size: $x-small;
+    line-height: 1.5;
+    padding: 0 0.5rem;
+    text-align: justify;
+}
+
+.card__h4 {
+    padding: 0.1rem 2rem;
+    background-color: $sable;
+    color: $white;
+    text-align: center;
+    font-family: $ubuntu;
+    font-size: $small;
+    font-weight: $bold;
+}
+
+.icon {
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: $x-small;
+}
+
+.card__lists {
+    list-style-type: circle;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+.card__title-1, .card__title-2{
+    font-size: $large;
+}
+
+.card__img-2{
+    width: 50%;
+    height: 50%;
+}
+.svg__animation {
+    padding-bottom: 3rem;
+}
+.icon {
+   font-size: $small; 
+}
+.footer {
+    margin-top: 2rem;
+}
+}
